@@ -1,0 +1,27 @@
+{
+  "name": "legal_and_financial_serverside",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nouman Azam",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.18.0"
+  }
+}
